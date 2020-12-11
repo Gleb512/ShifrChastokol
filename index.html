@@ -46,12 +46,12 @@ function Decrypt(f) {
     document.getElementById("p").value = pt.join("");
 }
 </script>
-Plaintext<BR>
+<BR>
 <TEXTAREA id="p" name="p" rows="4" cols="50">Повідомлення для шифрування</TEXTAREA>
 <P> key = <INPUT id="key" name="key" size="5" value="4" type="text"></P>
 <P><INPUT name="btnEn" value="Зашиврувати" onclick="Encrypt()" type="button"> 
 <INPUT name="btnDe" value="Розшифрувати" onclick="Decrypt()" type="button"></P>
-<P>Ciphertext<BR><TEXTAREA id="c" name="c" rows="4" cols="50"></TEXTAREA> </P>
+<P><BR><TEXTAREA id="c" name="c" rows="4" cols="50"></TEXTAREA> </P>
 
 </body>
 </html>
